@@ -588,5 +588,9 @@ footer .follow a:hover{
     .experience .box-container .box{
         padding-right: 0;
     }
+    .navbar{
+        margin-bottom: 40%;
+       
+    }
 
 }
