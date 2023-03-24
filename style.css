@@ -288,11 +288,11 @@ footer .follow a:hover{
 }
 
 .about .row-2 .skills .progress:nth-child(1) .bar span{
-    width:80%;
+    width:60%;
 }
 
 .about .row-2 .skills .progress:nth-child(2) .bar span{
-    width:80%;
+    width:70%;
 }
 
 .about .row-2 .skills .progress:nth-child(3) .bar span{
@@ -300,14 +300,12 @@ footer .follow a:hover{
 }
 
 .about .row-2 .skills .progress:nth-child(4) .bar span{
-    width:70%;
+    width:80%;
 }
 .about .row-2 .skills .progress:nth-child(5) .bar span{
-    width:40%;
+    width:80%;
 }
-.about .row-2 .skills .progress:nth-child(6) .bar span{
-    width:70%;
-}
+
 
 .about .row-2 .box-container{
     flex:1 1 40rem;
