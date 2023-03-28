@@ -373,6 +373,7 @@ footer .follow a:hover{
 .experience .box-container{
     display: flex;
     flex-wrap: wrap;
+    
 }
 
 .experience .box-container .box{
@@ -400,6 +401,9 @@ footer .follow a:hover{
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
     border-radius: .5rem;
 }
+.experience{
+    margin-top: -5%;
+}
 
 .experience .box-container .box .content span{
     color:#fff;
@@ -413,6 +417,7 @@ footer .follow a:hover{
     font-size: 2.5rem;
     padding:.5rem 0;
     color:#111;
+    
 }
 
 .experience .box-container .box .content p{
@@ -426,6 +431,9 @@ footer .follow a:hover{
     gap:1.5rem;
     flex-wrap: wrap;
     padding-bottom: 2rem;
+}
+.contact{
+    margin-top: -5%;
 }
 
 .contact .icons-container .icons{
@@ -513,7 +521,7 @@ footer .follow a:hover{
 }
 
 .footer{
-    margin-top: 2rem;
+    margin-top: -10rem;
     font-size: 2rem;
     padding:2.5rem;
     text-align: center;
@@ -525,7 +533,201 @@ footer .follow a:hover{
     color:var(--main-color);
 }
 
+.project .box-container {
+    display: flex;
+    flex-wrap: wrap;
+}
 
+.project .box-container .box {
+    position: relative;
+    flex: 1 1 33rem;
+    border-left: .2rem solid var(--main-color);
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+}
+
+.project .box-container .box::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -1rem;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    background: var(--main-color);
+}
+
+.project .box-container .box .content {
+    background: #fff;
+    padding: 1.5rem;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    border-radius: .5rem;
+}
+
+.project .box-container .box .content span {
+    color: #fff;
+    font-size: 1.7rem;
+    background: var(--main-color);
+    border-radius: 50rem;
+    padding: .4rem 1rem;
+}
+
+.project .box-container .box .content h3 {
+    font-size: 2.5rem;
+    padding: .5rem 0;
+    color: #111;
+}
+
+.project .box-container .box .content p {
+    font-size: 1.5rem;
+    color: #666;
+}
+
+.education .box-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.education{
+    margin-top: -12%;
+}
+
+.education .box-container .box {
+    position: relative;
+    flex: 1 1 33rem;
+    border-left: .2rem solid var(--main-color);
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+}
+
+.education .box-container .box::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -1rem;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    background: var(--main-color);
+}
+
+.education .box-container .box .content {
+    background: #fff;
+    padding: 1.5rem;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    border-radius: .5rem;
+}
+
+.education .box-container .box .content span {
+    color: #fff;
+    font-size: 1.7rem;
+    background: var(--main-color);
+    border-radius: 50rem;
+    padding: .4rem 1rem;
+}
+
+.education .box-container .box .content h3 {
+    font-size: 2.5rem;
+    padding: .5rem 0;
+    color: #111;
+}
+
+.education .box-container .box .content p {
+    font-size: 1.5rem;
+    color: #666;
+}
+
+.coding .icons-container {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    padding-bottom: 2rem;
+}
+
+.coding .icons-container .icons {
+    flex: 1 1 25rem;
+    text-align: center;
+    padding: 2rem;
+    background: #fff;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    border-radius: .5rem;
+}
+
+.coding .icons-container .icons i {
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    background: var(--main-color);
+    color: #fff;
+    border-radius: 50%;
+}
+
+.coding .icons-container .icons h3 {
+    color: #111;
+    font-size: 2rem;
+    padding: .5rem 0;
+    padding-top: 1rem;
+}
+
+.coding .icons-container .icons p {
+    color: #666;
+    font-size: 1.7rem;
+}
+
+.coding .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.coding .row form {
+    flex: 1 1 55rem;
+    background: #fff;
+    padding: 0 2rem;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    border-radius: .5rem;
+}
+
+.coding .row .map {
+    flex: 1 1 25rem;
+    border: 1rem solid #fff;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    border-radius: .5rem;
+    width: 100%;
+}
+
+.coding .row form .box,
+.coding .row form textarea {
+    width: 100%;
+    border-bottom: .1rem solid #333;
+    color: #333;
+    text-transform: none;
+    font-size: 1.7rem;
+    padding: 1rem 0;
+    margin: 1rem 0;
+}
+
+.coding .row form .box:focus,
+.coding .row form textarea:focus {
+    border-color: var(--main-color);
+}
+
+.coding .row form .box::placeholder,
+.coding .row form textarea::placeholder {
+    text-transform: capitalize;
+}
+
+.coding .row form textarea {
+    height: 20rem;
+    resize: none;
+}
+
+.coding .row form .btn {
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+}
 
 
 
@@ -589,5 +791,205 @@ footer .follow a:hover{
         margin-bottom: 40%;
        
     }
+
+}
+
+@media (min-width: 1568px) {
+
+    html {
+        font-size: 90%;
+    }
+
+    body {
+        padding: 0;
+    }
+
+    header {
+        left: 0%;
+    }
+
+    header.active {
+        left: 0%;
+    }
+
+    .navbar {
+        top: -30%;
+    }
+
+    .home {
+        margin-left: 25%;
+    }
+
+    .about {
+        margin-left: 25%;
+    }
+
+    .service {
+        margin-left: 25%;
+    }
+
+    .experience {
+        margin-left: 25%;
+    }
+
+    .education {
+        margin-left: 25%;
+    }
+
+    .coding {
+        margin-left: 25%;
+    }
+
+    .project {
+        margin-left: 25%;
+    }
+
+    .contact {
+        margin-left: 25%;
+    }
+
+    .footer {
+        margin-left: 25%;
+    }
+
+    .home .content .learner {
+        font-size: 25px;
+    }
+
+
+
+}
+
+@media (min-width: 1540px) {
+
+    html {
+        font-size: 90%;
+    }
+
+    body {
+        padding: 0;
+    }
+
+    header {
+        left: 0%;
+    }
+
+    header.active {
+        left: 0%;
+    }
+
+    .navbar {
+        top: -30%;
+    }
+
+    .home {
+        margin-left: 25%;
+    }
+
+    .about {
+        margin-left: 25%;
+    }
+
+    .service {
+        margin-left: 25%;
+    }
+
+    .experience {
+        margin-left: 25%;
+    }
+    .education {
+        margin-left: 25%;
+    }
+    .coding {
+        margin-left: 25%;
+    }
+    .project {
+        margin-left: 25%;
+    }
+
+    .contact {
+        margin-left: 25%;
+    }
+
+    .footer {
+        margin-left: 25%;
+    }
+    .home .content .learner{
+        font-size: 25px;
+    }
+
+
+
+}
+
+@media (min-width: 2050px) {
+
+    html {
+        font-size: 125%;
+    }
+
+    body {
+        padding: 0;
+    }
+
+    header {
+        left: 0%;
+    }
+
+    header.active {
+        left: 0%;
+    }
+
+    .navbar {
+        top: -30%;
+    }
+
+    .home {
+        margin-left: 25%;
+    }
+
+    .about {
+        margin-left: 25%;
+    }
+
+    .service {
+        
+        margin-left: 25%;
+    }
+
+    .experience {
+       margin-top: -5%;
+        margin-left: 25%;
+    }
+    .project {  
+        margin-left: 25%;
+    }
+    .coding {  
+        margin-left: 25%;
+    }
+    .education {  
+        margin-top: -10%;
+        margin-left: 25%;
+    }
+
+    .contact {
+        margin-top: 0%;
+        margin-left: 25%;
+    }
+
+    .footer {
+        margin-left: 25%;
+    }
+    .home .content .learner{
+        font-size: 35px;
+    }
+    .home .content{
+        align-content: flex-start;
+    }
+    .about .row-1 .image {
+        align-content: end;
+    }
+
+
 
 }
