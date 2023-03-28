@@ -432,9 +432,9 @@ footer .follow a:hover{
     flex-wrap: wrap;
     padding-bottom: 2rem;
 }
-.contact{
+/* .contact{
     margin-top: -5%;
-}
+} */
 
 .contact .icons-container .icons{
     flex:1 1 25rem;
@@ -521,7 +521,7 @@ footer .follow a:hover{
 }
 
 .footer{
-    margin-top: -10rem;
+    margin-top: 1rem;
     font-size: 2rem;
     padding:2.5rem;
     text-align: center;
@@ -588,9 +588,9 @@ footer .follow a:hover{
     display: flex;
     flex-wrap: wrap;
 }
-.education{
+/* .education{
     margin-top: -12%;
-}
+} */
 
 .education .box-container .box {
     position: relative;
