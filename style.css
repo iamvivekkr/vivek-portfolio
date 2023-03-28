@@ -794,10 +794,10 @@ footer .follow a:hover{
 
 }
 
-@media (min-width: 1568px) {
+@media (min-width: 1320px) {
 
     html {
-        font-size: 90%;
+        font-size: 80%;
     }
 
     body {
@@ -849,145 +849,12 @@ footer .follow a:hover{
     }
 
     .footer {
+        margin-top: -12%;
         margin-left: 25%;
     }
 
     .home .content .learner {
         font-size: 25px;
-    }
-
-
-
-}
-
-@media (min-width: 1540px) {
-
-    html {
-        font-size: 90%;
-    }
-
-    body {
-        padding: 0;
-    }
-
-    header {
-        left: 0%;
-    }
-
-    header.active {
-        left: 0%;
-    }
-
-    .navbar {
-        top: -30%;
-    }
-
-    .home {
-        margin-left: 25%;
-    }
-
-    .about {
-        margin-left: 25%;
-    }
-
-    .service {
-        margin-left: 25%;
-    }
-
-    .experience {
-        margin-left: 25%;
-    }
-    .education {
-        margin-left: 25%;
-    }
-    .coding {
-        margin-left: 25%;
-    }
-    .project {
-        margin-left: 25%;
-    }
-
-    .contact {
-        margin-left: 25%;
-    }
-
-    .footer {
-        margin-left: 25%;
-    }
-    .home .content .learner{
-        font-size: 25px;
-    }
-
-
-
-}
-
-@media (min-width: 2050px) {
-
-    html {
-        font-size: 125%;
-    }
-
-    body {
-        padding: 0;
-    }
-
-    header {
-        left: 0%;
-    }
-
-    header.active {
-        left: 0%;
-    }
-
-    .navbar {
-        top: -30%;
-    }
-
-    .home {
-        margin-left: 25%;
-    }
-
-    .about {
-        margin-left: 25%;
-    }
-
-    .service {
-        
-        margin-left: 25%;
-    }
-
-    .experience {
-       margin-top: -5%;
-        margin-left: 25%;
-    }
-    .project {  
-        margin-left: 25%;
-    }
-    .coding {  
-        margin-left: 25%;
-    }
-    .education {  
-        margin-top: -10%;
-        margin-left: 25%;
-    }
-
-    .contact {
-        margin-top: 0%;
-        margin-left: 25%;
-    }
-
-    .footer {
-        margin-left: 25%;
-    }
-    .home .content .learner{
-        font-size: 35px;
-    }
-    .home .content{
-        align-content: flex-start;
-    }
-    .about .row-1 .image {
-        align-content: end;
     }
 
 
