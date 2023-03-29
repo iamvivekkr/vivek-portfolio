@@ -764,9 +764,9 @@ footer .follow a:hover {
         }
 }
 
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1924px){
     html{
-        font-size: 70%;
+        font-size: 120%;
     }
     
 }
