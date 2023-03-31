@@ -1,3 +1,3 @@
 # vivekkumar.github.io
 Click here
-https://github.com/iamvivekkr/vivek-portfolio
+https://iamvivekkr.github.io/vivek-portfolio/
